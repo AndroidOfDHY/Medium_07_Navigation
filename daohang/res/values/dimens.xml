@@ -1,0 +1,99 @@
+<resources>
+
+    <dimen name="padding_small">8dp</dimen>
+    <dimen name="padding_medium">8dp</dimen>
+    <dimen name="padding_large">16dp</dimen>
+    <string name="test">
+       
+<DirectionsResponse>
+ <status>OK</status>
+ <route>
+  <summary>百沙路</summary>
+  <leg>
+   <step>
+    <travel_mode>WALKING</travel_mode>
+    <start_location>
+     <lat>40.1618900</lat>
+     <lng>116.3018300</lng>
+    </start_location>
+    <end_location>
+     <lat>40.1609100</lat>
+     <lng>116.3046900</lng>
+    </end_location>
+    <polyline>
+     <points>ybctFmezdU`AE`DK_@iP</points>
+    </polyline>
+    <duration>
+     <value>259</value>
+     <text>4 分钟</text>
+    </duration>
+    <html_instructions>向&lt;b&gt;南&lt;/b&gt;前行，走到“&lt;b&gt;百沙路/顺沙路&lt;/b&gt;”</html_instructions>
+    <distance>
+     <value>362</value>
+     <text>0.4 公里</text>
+    </distance>
+   </step>
+   <step>
+    <travel_mode>WALKING</travel_mode>
+    <start_location>
+     <lat>40.1609100</lat>
+     <lng>116.3046900</lng>
+    </start_location>
+    <end_location>
+     <lat>40.1492500</lat>
+     <lng>116.2885800</lng>
+    </end_location>
+    <polyline>
+     <points>u|btFiwzdUdYvHdHlBtB|@HBFD@ND`@^bEFn@f@nCf@pBPt@`BzETd@vApCZh@rBfDtBdDd@`A|@jBbAhCh@dBnA`FH\b@jBz@lFD\PpB@FXlD</points>
+    </polyline>
+    <duration>
+     <value>1500</value>
+     <text>25 分钟</text>
+    </duration>
+    <html_instructions>向&lt;b&gt;右&lt;/b&gt;转，进入&lt;b&gt;百沙路/顺沙路&lt;/b&gt;&lt;div style=&quot;font-size:0.9em&quot;&gt;继续沿百沙路前行&lt;/div&gt;&lt;div style=&quot;font-size:0.9em&quot;&gt;目的地在左侧&lt;/div&gt;</html_instructions>
+    <distance>
+     <value>2061</value>
+     <text>2.1 公里</text>
+    </distance>
+   </step>
+   <duration>
+    <value>1759</value>
+    <text>29 分钟</text>
+   </duration>
+   <distance>
+    <value>2423</value>
+    <text>2.4 公里</text>
+   </distance>
+   <start_location>
+    <lat>40.1618900</lat>
+    <lng>116.3018300</lng>
+   </start_location>
+   <end_location>
+    <lat>40.1492500</lat>
+    <lng>116.2885800</lng>
+   </end_location>
+   <start_address>中国北京市昌平区百沙路</start_address>
+   <end_address>中国北京市昌平区百沙路</end_address>
+  </leg>
+  <copyrights>地图数据 ©2012 GS(2011)6020 AutoNavi</copyrights>
+  <overview_polyline>
+   <points>ybctFmezdUbFQ_@iPdYvHdHlBtB|@PHn@dHf@nCf@pBPt@`BzElBvDnCpEtBdDd@`A|@jBbAhCh@dBnA`Fl@hC`AjGRxBXlD</points>
+  </overview_polyline>
+  <warning>步行路线正在测试中。 注意 – 此路线可能缺乏部分人行道信息。</warning>
+  <bounds>
+   <southwest>
+    <lat>40.1492500</lat>
+    <lng>116.2885800</lng>
+   </southwest>
+   <northeast>
+    <lat>40.1618900</lat>
+    <lng>116.3046900</lng>
+   </northeast>
+  </bounds>
+ </route>
+</DirectionsResponse>
+        
+        
+    </string>
+
+</resources>

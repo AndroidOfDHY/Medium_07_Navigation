@@ -1,0 +1,46 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.chuanshuo.cooper.daohang"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="7"
+        android:targetSdkVersion="14" />
+
+    <application
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <uses-library android:name="com.google.android.maps"/>
+        <activity
+            android:name=".LoginActivity"
+            android:label="@string/title_activity_main" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" /> 
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>  
+        <activity android:name=".SearchMapActivity" />
+        <activity android:name=".AdminMapActivity" />
+        <activity android:name=".UserListActivity" />
+        <activity android:name=".LuxianMapActivity" />
+        <activity android:name=".SearchUserActivity" />
+        <service android:name="cn.bmob.BmobPushService" />
+        <activity android:name="cn.bmob.pay.CardPayActivity"></activity>
+    </application>
+    
+   <uses-permission android:name="android.permission.INTERNET" />
+   <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+   <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+   <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+   
+   <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+   <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+   <uses-permission android:name="android.permission.READ_LOGS" />
+   
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> 
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" /> 
+    <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+
+</manifest>

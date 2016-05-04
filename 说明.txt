@@ -1,0 +1,5 @@
+GoogleMap有相关的指纹和密钥
+
+源码中使用的指纹Android地图API密钥对应本debug.keystore,所有你需要用这个debug.keystore把你的debug.keystore给替换掉
+
+或者你自己用你自己的密钥到google申请一个Android地图API密钥

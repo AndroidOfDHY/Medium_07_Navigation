@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    <com.google.android.maps.MapView
+        android:id="@+id/mapview"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:apiKey="0v2hG8Qi1J7vf-rOCu70BT1zSQFUqo_GTJBJDlQ"
+        android:clickable="true"
+        android:enabled="true" />
+    
+    
+    <LinearLayout 
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        
+    <LinearLayout 
+        android:layout_alignParentRight="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/kuang1_bg"
+        android:orientation="vertical"/>
+    <TextView android:id="@+id/txt_juli" 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_vertical"
+        android:paddingLeft="3dp"
+        android:textSize="14sp"
+        android:text="dist.:"
+        android:background="@drawable/kuang2_bg"
+     	/>
+    </LinearLayout>
+     
+</RelativeLayout>
